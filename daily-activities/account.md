@@ -55,8 +55,50 @@ flowchart TB
 この2つの式を同時に成り立たせるのが「複式簿記」です。
 これにより、左右の金額（借方・貸方）は常に一致します。
 
+### 資産・負債・純資産のつながり
 
-### 覚え方のゴールデンルール
+```mermaid
+flowchart RL
+  classDef asset fill:#e0f2fe,stroke:#0284c7,color:#0f172a,rx:6,ry:6;
+  classDef liability fill:#dcfce7,stroke:#16a34a,color:#0f172a,rx:6,ry:6;
+  classDef equity fill:#c7d2fe,stroke:#4338ca,color:#0f172a,rx:6,ry:6;
+
+  L[負債<br>他人から借りた原資]:::liability --> A[資産<br>手元にあるもの]:::asset
+  E[純資産<br>自分が出した原資]:::equity --> A
+```
+
+- **資産**は事業が持っている現金・モノ・権利など、活動の土台です。
+- **負債**は他人資本（借入や後払い）、**純資産**は自己資本（元入金や利益の蓄積）を意味します。
+- 事業の資産は、負債と純資産という資金の出どころが必ずペアになっているため、等式が成り立ちます。
+
+> [!NOTE]
+> 貸借対照表（バランスシート）はこの式を左右に配置したものです。詳しくは[`daily-activities/difference-between-balance-sheet-and-income-statement.md`](difference-between-balance-sheet-and-income-statement.md)で確認できます。
+
+### 収益・費用が純資産に与える影響
+
+```mermaid
+flowchart TB
+  classDef income fill:#fef3c7,stroke:#d97706,color:#0f172a,rx:6,ry:6;
+  classDef equity fill:#c7d2fe,stroke:#4338ca,color:#0f172a,rx:6,ry:6;
+
+  subgraph 利益の構造
+    direction TB
+    C[費用<br>経費など]:::income -->|減少させる| P[利益]:::equity
+  end
+
+  subgraph 純資産への反映
+    direction RL
+    P --> N[純資産]:::equity
+  end
+
+  R[収益<br>売上など]:::income -->|増加させる| P
+```
+
+- 収益が費用を上回ると利益が生まれ、その利益が純資産に加算されます。
+- 逆に費用が多いと利益が減り、純資産も減少します（赤字の累積）。
+- 損益計算書の結果（利益）は翌期の純資産へ繰り入れられるため、両式は会計期間をまたいで連動します。
+
+## 覚え方のゴールデンルール
 
 > * 借方で増えるのは → **資産・費用**
 > * 貸方で増えるのは → **負債・資本・収益**
@@ -72,7 +114,7 @@ flowchart TB
 | 資産・費用が増える | 収益・負債・資本が増える |
 | 資産・費用が減る  | 収益・負債・資本が減る  |
 
-#### この構造を理解すると
+### この構造を理解すると
 
 * 仕訳を書くとき「どの要素が増減したか？」で瞬時に方向が決まります。
 * 会計アプリ（aoiroやfreeeなど）の裏側も、この5要素＋左右ルールで動いています。
