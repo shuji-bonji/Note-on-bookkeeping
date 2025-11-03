@@ -18,6 +18,8 @@ https://github.com/shuji-bonji/Note-on-bookkeeping
 2. **簿記とは何かを理解する**
    - [簿記の基本構造：5つの勘定科目グループ](daily-activities/account.md)  
      簿記五要素、借方・貸方のルール、勘定科目の基本構造を整理して基礎概念を固めます。
+   - [仕訳の基礎と典型パターン](basics/journal-entries.md)  
+     仕訳の基本ルール、発生主義、三分法（仕入・売上・棚卸）、債権・債務、固定資産と減価償却、消費税の基礎、典型仕訳テンプレを体系化します。
    - [貸借対照表と損益計算書の違い](daily-activities/difference-between-balance-sheet-and-income-statement.md)  
      貸借対照表と損益計算書の役割の違いを知り、情報がどうまとまるかを確認します。
 
@@ -35,9 +37,12 @@ https://github.com/shuji-bonji/Note-on-bookkeeping
    - [青色申告で必要な帳簿](blue-tax-return/types-of-accounting-books.md)  
      決算整理や青色申告で必要となる帳簿・補助帳簿を整理し、年次処理への準備を進めます。
 
-6. **復習と応用（今後追加予定）**
+6. **参考資料**
+   - [勘定科目カタログ（個人事業主・エンジニア向け）](reference/chart-of-accounts.md)  
+     主要な勘定科目を目的別に整理。定義・例・注意点をまとめた実務リファレンスです。
+
+7. **復習と応用（今後追加予定）**
    - 簿記3級レベルの演習問題、決算整理仕訳の実例、青色申告書の作成手順などを拡充予定です。
 
 > [!IMPORTANT]
 > 各章の最後に関連リンクを追加していく予定です。コンテンツ拡充時には本マップも更新します。
-
