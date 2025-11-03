@@ -34,6 +34,8 @@ https://github.com/shuji-bonji/Note-on-bookkeeping
 4. **月次業務を整える**
    - [1ヶ月ごとにやること](what-to-do-every-month/what-to-do-every-month.md)  
      月次試算表、請求書と入金確認、口座照合などのチェックリストを整備し、月末締めの流れを作ります。
+   - [月次試算表の作り方と検算手順](what-to-do-every-month/trial-balance.md)  
+     銀行・現金・売掛・買掛の突合を含め、月次での整合確認と差異解消の実務を解説します。
 
 5. **年次業務と青色申告に備える**
    - [青色申告で必要な帳簿](blue-tax-return/types-of-accounting-books.md)  
