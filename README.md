@@ -16,6 +16,8 @@ https://github.com/shuji-bonji/Note-on-bookkeeping
      日次・月次・年次を通じた会計サイクルを俯瞰し、全体の流れと各フェーズの役割を把握します。
 
 2. **簿記とは何かを理解する**
+   - [簿記とは（はじめに読む）](basics/what-is-bookkeeping.md)  
+     目的・複式簿記の原則・会計サイクル・主要帳簿をまとめた入門ガイドです。
    - [簿記の基本構造：5つの勘定科目グループ](daily-activities/account.md)  
      簿記五要素、借方・貸方のルール、勘定科目の基本構造を整理して基礎概念を固めます。
    - [仕訳の基礎と典型パターン](basics/journal-entries.md)  
