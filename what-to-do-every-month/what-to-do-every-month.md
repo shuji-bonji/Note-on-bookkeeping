@@ -84,6 +84,7 @@ flowchart LR
 - 日次の仕訳ルール復習：[`daily-activities/daily-activities.md`](../daily-activities/daily-activities.md)
 - 売掛・買掛管理の実例（今後追加予定）
 - 月次試算表の作り方：[`what-to-do-every-month/trial-balance.md`](./trial-balance.md)
+- 月次締めチェックリスト：[`what-to-do-every-month/closing-checklist.md`](./closing-checklist.md)
 
 ## 月次レビューで見る指標の例
 

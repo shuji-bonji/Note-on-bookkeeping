@@ -14,21 +14,21 @@ This repository is a Markdown-native knowledge base for a sole proprietor (indiv
 ## Directory Structure (Target)
 
 - `overview/`
-  - `bookkeeping-flow.md` — End-to-end accounting cycle with daily/monthly/yearly flows.
+  - `bookkeeping-flow.md` — End-to-end accounting cycle with daily/monthly/yearly flows. [exists]
 
 - `basics/`
-  - `what-is-bookkeeping.md` — What is bookkeeping, core principles, cycle, ledgers.
-  - `journal-entries.md` — Journal entry rules, accrual basis, three-part method (三分法), templates.
-  - `accounting-equation.md` — A = L + E and profit linkage; adjusting concepts. (planned)
+  - `what-is-bookkeeping.md` — What is bookkeeping, core principles, cycle, ledgers. [exists]
+  - `journal-entries.md` — Journal entry rules, accrual basis, three-part method (三分法), templates. [exists]
+  - `accounting-equation.md` — A = L + E and profit linkage; adjusting concepts. [exists]
 
 - `daily-activities/`
-  - `daily-activities.md` — Daily tasks, evidence handling, quick checks.
-  - `account.md` — Five elements (五要素), debit/credit rules, relationship diagrams.
-  - `examples-of-daily-activities.md` — Practical cases: credit card, AR/AP, depreciation, sale/disposal.
+  - `daily-activities.md` — Daily tasks, evidence handling, quick checks. [exists]
+  - `account.md` — Five elements (五要素), debit/credit rules, relationship diagrams. [exists]
+  - `examples-of-daily-activities.md` — Practical cases: credit card, AR/AP, depreciation, sale/disposal. [exists]
 
 - `what-to-do-every-month/` (aka monthly-operations)
-  - `what-to-do-every-month.md` — Monthly checklist, flow, KPIs, reconciliation.
-  - `trial-balance.md` — How to build and verify trial balance; AR/AP/Bank reconciliation. (planned)
+  - `what-to-do-every-month.md` — Monthly checklist, flow, KPIs, reconciliation. [exists]
+  - `trial-balance.md` — How to build and verify trial balance; AR/AP/Bank reconciliation. [exists]
   - `closing-checklist.md` — Month-end verification and common errors. (planned)
 
 - `yearly-operations/`
@@ -38,7 +38,7 @@ This repository is a Markdown-native knowledge base for a sole proprietor (indiv
   - `consumption-tax-basics.md` — Consumption tax basics, tax-exclusive vs inclusive, brief overview. (planned)
 
 - `reference/`
-  - `chart-of-accounts.md` — Catalog of accounts + expense eligibility guide.
+  - `chart-of-accounts.md` — Catalog of accounts + expense eligibility guide. [exists]
   - `document-management.md` — Evidence collection, naming, retention periods. (planned)
   - `glossary.md` — Key terms and definitions. (planned)
 
@@ -63,35 +63,33 @@ This repository is a Markdown-native knowledge base for a sole proprietor (indiv
 ## Roadmap (Next Tasks)
 
 High priority
-1. Add `what-to-do-every-month/trial-balance.md` — step-by-step creation and reconciliation (bank, AR/AP, cash).
-2. Add `yearly-operations/adjusting-entries.md` — accrual/deferral, depreciation, inventory, provisions; examples.
-3. Add `yearly-operations/inventory-and-cogs.md` — 三分法まとめ、期末棚卸～売上原価の数値例。
-4. Add `yearly-operations/blue-return-flow.md` — 青色申告決算書の作成フロー、e-Tax提出の概略。
+1. Add `yearly-operations/adjusting-entries.md` — accrual/deferral, depreciation, inventory, provisions; examples.
+2. Add `yearly-operations/inventory-and-cogs.md` — 三分法まとめ、期末棚卸～売上原価の数値例。
+3. Add `yearly-operations/blue-return-flow.md` — 青色申告決算書の作成フロー、e-Tax提出の概略。
 
 Medium priority
-5. Add `reference/document-management.md` — 証憑収集・スキャン・命名・保存年限（7年）
-6. Add `reference/glossary.md` — 用語集（売掛/買掛/未払/前払/控除/課税/免税 等）
-7. Add `yearly-operations/consumption-tax-basics.md` — 消費税の超入門（税抜/税込、仕入税額控除の前提）
+4. Add `reference/document-management.md` — 証憑収集・スキャン・命名・保存年限（7年）
+5. Add `reference/glossary.md` — 用語集（売掛/買掛/未払/前払/控除/課税/免税 等）
+6. Add `yearly-operations/consumption-tax-basics.md` — 消費税の超入門（税抜/税込、仕入税額控除の前提）
 
 Exercises (with answers)
-8. Add `practice/quiz-journal-entries.md` — 20問（初級→3級）＋解答・解説
-9. Add `practice/trial-balance-exercises.md` — 2セット（CSV/表）＋解答
-10. Add `practice/adjusting-entries-exercises.md` — 決算整理1セット＋解答
-11. Add `practice/financial-statements-exercises.md` — P/L・B/S作成問題＋解答
+7. Add `practice/quiz-journal-entries.md` — 20問（初級→3級）＋解答・解説
+8. Add `practice/trial-balance-exercises.md` — 2セット（CSV/表）＋解答
+9. Add `practice/adjusting-entries-exercises.md` — 決算整理1セット＋解答
+10. Add `practice/financial-statements-exercises.md` — P/L・B/S作成問題＋解答
 
 Templates
-12. Add `templates/monthly-report-template.md` — 指標（売上、粗利、費用、利益、現金）と所感欄
-13. Add `templates/ap-ar-aging.md` — 滞留日数・回転率を見える化
-14. Add `templates/checklists.md` — 日次・月次・年次のチェックリスト総覧
+11. Add `templates/monthly-report-template.md` — 指標（売上、粗利、費用、利益、現金）と所感欄
+12. Add `templates/ap-ar-aging.md` — 滞留日数・回転率を見える化
+13. Add `templates/checklists.md` — 日次・月次・年次のチェックリスト総覧
 
 Polish & Cross-linking
-15. Add profitable asset sale example to `daily-activities/examples-of-daily-activities.md`.
-16. Cross-link Basics ↔ Daily/Monthly/Yearly pages consistently.
-17. Ensure all pages end with a Related Links section.
+14. Add profitable asset sale example to `daily-activities/examples-of-daily-activities.md`.
+15. Cross-link Basics ↔ Daily/Monthly/Yearly pages consistently.
+16. Ensure all pages end with a Related Links section.
 
 ## Contribution Notes
 
 - Keep changes minimal and focused; avoid large rewrites unless scoped.
 - Match existing style (tables, callouts, Mermaid). Japanese as primary language.
 - Validate numbers in accounting examples; prefer single-entry settlement for disposal/sale cases.
-
