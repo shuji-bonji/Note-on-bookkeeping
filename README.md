@@ -50,6 +50,10 @@ https://github.com/shuji-bonji/Note-on-bookkeeping
      決算整理や青色申告で必要となる帳簿・補助帳簿を整理し、年次処理への準備を進めます。
    - [決算整理仕訳](blue-tax-return/closing-entries.md)  
      減価償却、経過勘定、家事按分など、IT 系フリーランス向けの決算整理仕訳を具体例で解説します。
+   - [棚卸と売上原価（仕入三分法まとめ）](blue-tax-return/inventory-and-cogs.md)  
+     期末棚卸から売上原価の算出、三分法の期末振替までを数値例で整理します。
+   - [青色申告の決算フロー（個人事業主）](blue-tax-return/blue-return-flow.md)  
+     決算整理から決算書作成、e-Tax提出までの流れをチェックリスト形式で整理します。
    - [確定申告タイムライン](blue-tax-return/tax-return-timeline.md)  
      12 月〜3 月の作業をフェーズ別に整理。チェックリスト形式で漏れなく進められます。
 
@@ -70,6 +74,8 @@ https://github.com/shuji-bonji/Note-on-bookkeeping
 
    - [勘定科目カタログ（個人事業主・エンジニア向け）](reference/chart-of-accounts.md)  
      主要な勘定科目を目的別に整理。定義・例・注意点をまとめた実務リファレンスです。
+   - [証憑管理（電子帳簿保存法対応の基本）](reference/document-management.md)  
+     証憑の収集・命名・保存のルールを整理し、仕訳と紐付けられる状態を作ります。
 
 > [!IMPORTANT]
 > 各章の最後に関連リンクを追加していく予定です。コンテンツ拡充時には本マップも更新します。
