@@ -13,11 +13,11 @@
 
 ## 簿記のコア原則（複式簿記）
 
-- 取引は「借方（左）」「貸方（右）」の2側面で必ず記録する
+- 取引は「借方（左）」「貸方（右）」の 2 側面で必ず記録する
 - 左右の金額は常に一致する（ダブルチェックの仕組み）
 - 借方で増えるのは「資産・費用」、貸方で増えるのは「負債・純資産・収益」
 
-> 詳細: [`daily-activities/account.md`](../daily-activities/account.md)
+> 詳細: [簿記の基本構造：5 つの勘定科目グループ](../daily-activities/account.md)
 
 ## 会計サイクル（全体像）
 
@@ -30,9 +30,9 @@ flowchart LR
   D --> E[決算整理]:::p --> F[損益計算書]:::r --> G[貸借対照表]:::r
 ```
 
-> 全体の詳細と日次・月次・年次の関係は: [`overview/bookkeeping-flow.md`](../overview/bookkeeping-flow.md)
+> 全体の詳細と日次・月次・年次の関係は: [簿記の流れ](../overview/bookkeeping-flow.md)
 
-## 簿記で扱う5つの要素
+## 簿記で扱う 5 つの要素
 
 - 資産（現金・預金・売掛金・備品など）
 - 負債（買掛金・未払金・借入金など）
@@ -40,13 +40,13 @@ flowchart LR
 - 収益（売上など）
 - 費用（仕入・経費など）
 
-> 5要素と左右の関係式は: [`daily-activities/account.md`](../daily-activities/account.md)
+> 5 要素と左右の関係式は: [簿記の基本構造：5 つの勘定科目グループ](../daily-activities/account.md)
 
 ## 取引の記録単位（仕訳）
 
-- 1件の取引を「いつ／だれに／何を／いくら／どの科目で」記録する
+- 1 件の取引を「いつ／だれに／何を／いくら／どの科目で」記録する
 - 代表例：`借方: 消耗品費 / 貸方: 現金`（文房具を現金で購入）
-- 実務で頻出の仕訳テンプレは: [`basics/journal-entries.md`](./journal-entries.md)
+- 実務で頻出の仕訳テンプレは: [仕訳の基礎と典型パターン](./journal-entries.md)
 
 ## 実務で使う主な帳簿
 
@@ -55,16 +55,15 @@ flowchart LR
 - 試算表（借方・貸方の整合をチェック）
 - 財務諸表（損益計算書・貸借対照表）
 
-> 帳簿の種類と役割: [`blue-tax-return/types-of-accounting-books.md`](../blue-tax-return/types-of-accounting-books.md)
+> 帳簿の種類と役割: [青色申告で必要な帳簿](../blue-tax-return/types-of-accounting-books.md)
 
 ## まず何から始める？（ロードマップ）
 
-1. 全体像の把握: [`overview/bookkeeping-flow.md`](../overview/bookkeeping-flow.md)
-2. 基礎概念の習得: [`daily-activities/account.md`](../daily-activities/account.md)
-3. 仕訳の型を覚える: [`basics/journal-entries.md`](./journal-entries.md)
-4. 日々の実践: [`daily-activities/daily-activities.md`](../daily-activities/daily-activities.md)
-5. 月次の締め: [`what-to-do-every-month/what-to-do-every-month.md`](../what-to-do-every-month/what-to-do-every-month.md)
+1. 全体像の把握: [簿記の流れ](../overview/bookkeeping-flow.md)
+2. 基礎概念の習得: [簿記の基本構造：5 つの勘定科目グループ](../daily-activities/account.md)
+3. 仕訳の型を覚える: [仕訳の基礎と典型パターン](./journal-entries.md)
+4. 日々の実践: [日々やること](../daily-activities/daily-activities.md)
+5. 月次の締め: [1 ヶ月ごとにやること](../what-to-do-every-month/what-to-do-every-month.md)
 
 > [!NOTE]
-> 「現金主義」との違い、消費税の扱い、按分や減価償却などは、実践ページと併せて徐々に身につければOKです。
-
+> 「現金主義」との違い、消費税の扱い、按分や減価償却などは、実践ページと併せて徐々に身につければ OK です。
