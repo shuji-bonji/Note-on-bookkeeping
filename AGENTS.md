@@ -11,7 +11,7 @@ This repository is a Markdown-native knowledge base for a sole proprietor (indiv
 - Links: Always add relative links to related pages at the end of a file.
 - Scope: Target is 個人事業主 with a path to 簿記3級 + 青色申告の実務。
 
-## Directory Structure (Target)
+## Directory Structure (Current)
 
 - `overview/`
   - `bookkeeping-flow.md` — End-to-end accounting cycle with daily/monthly/yearly flows. [exists]
@@ -24,18 +24,26 @@ This repository is a Markdown-native knowledge base for a sole proprietor (indiv
 - `daily-activities/`
   - `daily-activities.md` — Daily tasks, evidence handling, quick checks. [exists]
   - `account.md` — Five elements (五要素), debit/credit rules, relationship diagrams. [exists]
+  - `difference-between-balance-sheet-and-income-statement.md` — Balance sheet vs income statement overview. [exists]
   - `examples-of-daily-activities.md` — Practical cases: credit card, AR/AP, depreciation, sale/disposal. [exists]
 
 - `what-to-do-every-month/` (aka monthly-operations)
   - `what-to-do-every-month.md` — Monthly checklist, flow, KPIs, reconciliation. [exists]
   - `trial-balance.md` — How to build and verify trial balance; AR/AP/Bank reconciliation. [exists]
-  - `closing-checklist.md` — Month-end verification and common errors. (planned)
+  - `closing-checklist.md` — Month-end verification and common errors. [exists]
 
-- `yearly-operations/`
-  - `adjusting-entries.md` — Year-end adjustments: accruals/deferrals, depreciation, inventory, provisions. (planned)
-  - `inventory-and-cogs.md` — Inventory count, COGS (期首+仕入−期末), 三分法総まとめ. (planned)
-  - `blue-return-flow.md` — Blue return statements (P/L, B/S) preparation, e-Tax steps, retention. (planned)
-  - `consumption-tax-basics.md` — Consumption tax basics, tax-exclusive vs inclusive, brief overview. (planned)
+- `blue-tax-return/`
+  - `types-of-accounting-books.md` — Required books for blue tax return and year-end. [exists]
+  - `closing-entries.md` — Year-end adjustments for freelancers; depreciation, accruals, allocations. [exists]
+  - `tax-return-timeline.md` — Dec–Mar workflow checklist. [exists]
+
+- `consumption-tax/`
+  - `README.md` — Section index and reading flow. [exists]
+  - `overview.md` — Basics, scope, and obligation checks. [exists]
+  - `taxable-vs-exempt.md` — Taxable vs exempt business rules. [exists]
+  - `invoice-system.md` — Invoice system requirements and impact. [exists]
+  - `calculation-methods.md` — Standard vs simplified, 2/10 special rule. [exists]
+  - `journal-examples.md` — Tax-inclusive/exclusive journal examples. [exists]
 
 - `reference/`
   - `chart-of-accounts.md` — Catalog of accounts + expense eligibility guide. [exists]
@@ -63,30 +71,28 @@ This repository is a Markdown-native knowledge base for a sole proprietor (indiv
 ## Roadmap (Next Tasks)
 
 High priority
-1. Add `yearly-operations/adjusting-entries.md` — accrual/deferral, depreciation, inventory, provisions; examples.
-2. Add `yearly-operations/inventory-and-cogs.md` — 三分法まとめ、期末棚卸～売上原価の数値例。
-3. Add `yearly-operations/blue-return-flow.md` — 青色申告決算書の作成フロー、e-Tax提出の概略。
+1. Add `blue-tax-return/inventory-and-cogs.md` — 三分法まとめ、期末棚卸～売上原価の数値例。
+2. Add `blue-tax-return/blue-return-flow.md` — 青色申告決算書の作成フロー、e-Tax提出の概略。
+3. Add `reference/document-management.md` — 証憑収集・スキャン・命名・保存年限（7年）
 
 Medium priority
-4. Add `reference/document-management.md` — 証憑収集・スキャン・命名・保存年限（7年）
-5. Add `reference/glossary.md` — 用語集（売掛/買掛/未払/前払/控除/課税/免税 等）
-6. Add `yearly-operations/consumption-tax-basics.md` — 消費税の超入門（税抜/税込、仕入税額控除の前提）
+4. Add `reference/glossary.md` — 用語集（売掛/買掛/未払/前払/控除/課税/免税 等）
+5. Add `practice/quiz-journal-entries.md` — 20問（初級→3級）＋解答・解説
+6. Add `practice/trial-balance-exercises.md` — 2セット（CSV/表）＋解答
 
 Exercises (with answers)
-7. Add `practice/quiz-journal-entries.md` — 20問（初級→3級）＋解答・解説
-8. Add `practice/trial-balance-exercises.md` — 2セット（CSV/表）＋解答
-9. Add `practice/adjusting-entries-exercises.md` — 決算整理1セット＋解答
-10. Add `practice/financial-statements-exercises.md` — P/L・B/S作成問題＋解答
+7. Add `practice/adjusting-entries-exercises.md` — 決算整理1セット＋解答
+8. Add `practice/financial-statements-exercises.md` — P/L・B/S作成問題＋解答
 
 Templates
-11. Add `templates/monthly-report-template.md` — 指標（売上、粗利、費用、利益、現金）と所感欄
-12. Add `templates/ap-ar-aging.md` — 滞留日数・回転率を見える化
-13. Add `templates/checklists.md` — 日次・月次・年次のチェックリスト総覧
+9. Add `templates/monthly-report-template.md` — 指標（売上、粗利、費用、利益、現金）と所感欄
+10. Add `templates/ap-ar-aging.md` — 滞留日数・回転率を見える化
+11. Add `templates/checklists.md` — 日次・月次・年次のチェックリスト総覧
 
 Polish & Cross-linking
-14. Add profitable asset sale example to `daily-activities/examples-of-daily-activities.md`.
-15. Cross-link Basics ↔ Daily/Monthly/Yearly pages consistently.
-16. Ensure all pages end with a Related Links section.
+12. Add profitable asset sale example to `daily-activities/examples-of-daily-activities.md`.
+13. Cross-link Basics ↔ Daily/Monthly/Yearly pages consistently.
+14. Ensure all pages end with a Related Links section.
 
 ## Contribution Notes
 
