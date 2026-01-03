@@ -53,13 +53,23 @@ https://github.com/shuji-bonji/Note-on-bookkeeping
    - [確定申告タイムライン](blue-tax-return/tax-return-timeline.md)  
      12 月〜3 月の作業をフェーズ別に整理。チェックリスト形式で漏れなく進められます。
 
-6. **参考資料**
+6. **消費税の実務を理解する**
+
+   - [消費税の基礎知識](consumption-tax/overview.md)  
+     消費税の仕組み、課税対象、納税義務の判定フローを解説します。
+   - [課税事業者と免税事業者](consumption-tax/taxable-vs-exempt.md)  
+     免税事業者の条件、課税事業者になるケース、届出手続きを整理します。
+   - [インボイス制度](consumption-tax/invoice-system.md)  
+     適格請求書の要件、経過措置、フリーランスへの影響を解説します。
+   - [消費税の計算方法](consumption-tax/calculation-methods.md)  
+     本則課税・簡易課税・2 割特例の違いと選び方を比較します。
+   - [消費税関連の仕訳例](consumption-tax/journal-examples.md)  
+     税込経理・税抜経理の仕訳パターンを具体例で示します。
+
+7. **参考資料**
 
    - [勘定科目カタログ（個人事業主・エンジニア向け）](reference/chart-of-accounts.md)  
      主要な勘定科目を目的別に整理。定義・例・注意点をまとめた実務リファレンスです。
-
-7. **復習と応用（今後追加予定）**
-   - 簿記 3 級レベルの演習問題、決算整理仕訳の実例、青色申告書の作成手順などを拡充予定です。
 
 > [!IMPORTANT]
 > 各章の最後に関連リンクを追加していく予定です。コンテンツ拡充時には本マップも更新します。
